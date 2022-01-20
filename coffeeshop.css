@@ -1,0 +1,123 @@
+/* styling for div container background*/
+.background-pic {
+    background-image: url(/Assets/woodenfloor2.jpeg);
+    background-size: cover;  
+    background-repeat: no-repeat;  
+}
+
+/* div class jumbtron styling */
+#jb1{
+    background: linear-gradient(to right, transparent, mistyrose),
+    url("/Assets/2ndcoffeeshop.jpeg");
+    background-size: cover;  
+    background-repeat: no-repeat;  
+}
+
+.display-4 {
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.lead {
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 35px;
+}
+
+/* styling for h2 element */
+h2 {
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+/* styling for cnt1 */
+#cnt1 {
+    margin-bottom: 20px;
+}
+
+
+/*styling for cnt2*/
+#cnt2 {
+    margin-top: 20px;
+}
+
+/*styling for cards*/
+.card {
+    font-size: 10px;
+    text-align: center;
+}
+
+/* footer styling  */
+
+#jb2 {
+    
+}
+
+/*styling for menu pop up*/
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+  /* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+  /* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+  /* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+  /* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
