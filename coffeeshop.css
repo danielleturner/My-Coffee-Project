@@ -5,6 +5,11 @@
     background-repeat: no-repeat;  
 }
 
+/*styling for body*/
+body {
+    overflow-x: hidden;
+}
+
 /* div class jumbtron styling */
 #jb1{
     background: linear-gradient(to right, transparent, mistyrose),
@@ -51,6 +56,7 @@ h2 {
 /*styling for cnt2*/
 #cnt2 {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 /*styling for cards*/
@@ -64,6 +70,9 @@ h2 {
 #jb2 {
     
 }
+
+
+
 
 /*styling for menu pop up*/
 .popup {
