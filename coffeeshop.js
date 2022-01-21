@@ -24,6 +24,12 @@ function mocha() {
     var popup = document.getElementById("myMocha");
     popup.classList.toggle("show");
 }
+
+function good() {
+    var popup = document.getElementById("brown");
+    popup.classList.toggle("show");
+}
+
 // document.getElementById("ICF3").addEventListener("click", function(){
 //     document.getElementById("goodstuff").innerHTML = "1/2 cup milk";
 // });

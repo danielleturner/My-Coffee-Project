@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <linkhref="https://fonts.googleapis.com/css2?family=Anton&family=Corinthia:wght@400;700&family=Dancing+Script:wght@600&family=Gloria+Hallelujah&family=Gothic+A1:wght@500&family=IBM+Plex+Serif:wght@300&family=Imperial+Script&family=Khula:wght@300&family=Lobster&family=Love+Light&family=Merriweather:wght@300;400&family=Mochiy+Pop+P+One&family=Moon+Dance&family=Neonderthaw&family=The+Nautigal:wght@700&display=swap"
     rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Corinthia:wght@400;700&family=Dancing+Script:wght@600&family=Gloria+Hallelujah&family=Gothic+A1:wght@500&family=IBM+Plex+Serif:wght@300&family=Imperial+Script&family=Khula:wght@300&family=Lobster&family=Love+Light&family=Merriweather:wght@300;400&family=Mochiy+Pop+P+One&family=Moon+Dance&family=Neonderthaw&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
 
 
         <!-- Bootstrap CSS -->
@@ -43,7 +46,7 @@
 
     <div class="background-pic">
         <div class="container-fluid" id="cnt1">
-            <h2>Choose from one of our Tasty flavors!</h2>
+            <h2 id="tasty">Choose from one of our Tasty flavors!</h2>
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -91,7 +94,14 @@
                             <div class="card-body">
                                 <h5 class="card-title">Ice Caramel Latte</h5>
                                 <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a>  -->
+                                <div class="popup" onclick="good()"><button class="btn btn-primary">Ingredients</button>
+                                    <span class="popuptext" id="brown">1/2 cup of milk <br> 100% colombian beans<br>
+                                        2 shots of expresso</span>
+                                </div> 
+                                <div class="col">
+                                    <button style="margin-top: 10px;">add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,7 +112,14 @@
                             <div class="card-body">
                                 <h5 class="card-title">Cold Seasonal Latte</h5>
                                 <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                <div class="popup" onclick="mocha()"><button class="btn btn-primary">Ingredients</button>
+                                    <span class="popuptext" id="myMocha">1/2 cup of milk <br> 100% colombian beans<br>
+                                        2 shots of expresso</span>
+                                </div>
+                                <div class="col">
+                                    <button style="margin-top: 10px;">add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -174,8 +191,8 @@
     <footer>
         <div class="row">
             <div class="jumbotron" id="jb2">
-                <h1 class="display-4">Thank you for visitin our online store. Please like and follow us on Facebook,
-                    Instagram and Linkedin.</h1>
+                <h2 class="display-4">Thank you for visitin our online store. Please like and follow us on Facebook,
+                    Instagram and Linkedin.</h2>
                 <p class="lead">We look forward to seeing you for coffee !! <svg xmlns="http://www.w3.org/2000/svg"
                         width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
                         <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
