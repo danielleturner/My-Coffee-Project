@@ -1,6 +1,6 @@
 /* styling for div container background*/
 .background-pic {
-    background-image: url(/Assets/woodenfloor2.jpeg);
+    background-image: url(/Assets/naturalbackground.jpeg);
     background-size: cover;  
     background-repeat: no-repeat;  
 }

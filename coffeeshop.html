@@ -55,7 +55,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Classic Ice Coffee</h5>
                                 <p class="card-text"></p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                                 <div class="popup" onclick="menu()"><button class="btn btn-primary"
                                         id="ICF">Ingredients</button>
                                     <span class="popuptext" id="iceCoffee">1/2 cup of milk <br> 100% colombian beans<br>
@@ -64,9 +63,6 @@
                                 <div class="col">
                                     <button style="margin-top: 10px;">add to cart</button>
                                 </div>
-                                <!-- <p id="goodsuff"><button class="btn btn-primary" id="ICF3">Ingredients</button> </p> 
-                                <button class="btn btn-primary" id="ICF3">See Ingredients</button>
-                                <p id="goodstuff"></p>  -->
                             </div>
                         </div>
                     </div>
@@ -76,7 +72,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Iced Mocha Latte</h5>
                                 <p class="card-text"></p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                                 <div class="popup" onclick="mocha()"><button class="btn btn-primary">Ingredients</button>
                                     <span class="popuptext" id="myMocha">1/2 cup of milk <br> 100% colombian beans<br>
                                         2 shots of expresso</span>
@@ -94,7 +89,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Ice Caramel Latte</h5>
                                 <p class="card-text"></p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a>  -->
                                 <div class="popup" onclick="good()"><button class="btn btn-primary">Ingredients</button>
                                     <span class="popuptext" id="brown">1/2 cup of milk <br> 100% colombian beans<br>
                                         2 shots of expresso</span>
@@ -112,9 +106,8 @@
                             <div class="card-body">
                                 <h5 class="card-title">Cold Seasonal Latte</h5>
                                 <p class="card-text"></p>
-                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                                <div class="popup" onclick="mocha()"><button class="btn btn-primary">Ingredients</button>
-                                    <span class="popuptext" id="myMocha">1/2 cup of milk <br> 100% colombian beans<br>
+                                <div class="popup" onclick="coldLatte()"><button class="btn btn-primary">Ingredients</button>
+                                    <span class="popuptext" id="cold">1/2 cup of milk <br> 100% colombian beans<br>
                                         2 shots of expresso</span>
                                 </div>
                                 <div class="col">
@@ -139,7 +132,13 @@
                             <div class="card-body">
                                 <h5 class="card-title">Classic Hot Coffee</h5>
                                 <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="popup" onclick="coffee()"><button class="btn btn-primary">Ingredients</button>
+                                    <span class="popuptext" id="myCoffee">1/2 cup of milk <br> 100% colombian beans<br>
+                                        2 shots of expresso</span>
+                                </div>
+                                <div class="col">
+                                    <button style="margin-top: 10px;">add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -147,22 +146,36 @@
                         <div class="card" style="width: 18rem;">
                             <img src="/Assets/hot-mocha-latte.jpeg" height="325px" class="card-img-top"
                                 alt="mocha latte">
-                            <div class="card-body">
-                                <h5 class="card-title">Hot Mocha Latte</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Hot Mocha Latte</h5>
+                                    <p class="card-text"></p>
+                                    
+                                    <div class="popup" onclick="hotMocha()"><button class="btn btn-primary">Ingredients</button>
+                                        <span class="popuptext" id="hot">1/2 cup of milk <br> 100% colombian beans<br>
+                                            2 shots of expresso</span>
+                                    </div>
+                                    <div class="col">
+                                        <button style="margin-top: 10px;">add to cart</button>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     <div class="col-sm">
                         <div class="card" style="width: 18rem;">
                             <img src="/Assets/hot-caramel-latte.jpeg" height="325px" class="card-img-top"
                                 alt="caramel latte">
-                            <div class="card-body">
-                                <h5 class="card-title">Ice Caramel Latte</h5>
-                                <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Hot Caramel Latte</h5>
+                                    <p class="card-text"></p>
+                                    
+                                    <div class="popup" onclick="caramel()"><button class="btn btn-primary">Ingredients</button>
+                                        <span class="popuptext" id="myCaramel">1/2 cup of milk <br> 100% colombian beans<br>
+                                            2 shots of expresso</span>
+                                    </div>
+                                    <div class="col">
+                                        <button style="margin-top: 10px;">add to cart</button>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     <div class="col-sm">
@@ -171,7 +184,13 @@
                             <div class="card-body">
                                 <h5 class="card-title">Hot Seasonal Latte</h5>
                                 <p class="card-text"></p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <div class="popup" onclick="seasonal()"><button class="btn btn-primary">Ingredients</button>
+                                    <span class="popuptext" id="valentine">1/2 cup of milk <br> 100% colombian beans<br>
+                                        2 shots of expresso</span>
+                                </div>
+                                <div class="col">
+                                    <button style="margin-top: 10px;">add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -191,7 +210,7 @@
     <footer>
         <div class="row">
             <div class="jumbotron" id="jb2">
-                <h2 class="display-4">Thank you for visitin our online store. Please like and follow us on Facebook,
+                <h2 class="display-4">Thank you for visiting our online store. Please like and follow us on Facebook,
                     Instagram and Linkedin.</h2>
                 <p class="lead">We look forward to seeing you for coffee !! <svg xmlns="http://www.w3.org/2000/svg"
                         width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
