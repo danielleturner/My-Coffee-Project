@@ -2,7 +2,8 @@
 .background-pic {
     background-image: url(/Assets/naturalbackground.jpeg);
     background-size: cover;  
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat; 
+ 
 }
 
 /*styling for body*/
@@ -12,10 +13,10 @@ body {
 
 /* div class jumbtron styling */
 #jb1{
-    background: linear-gradient(to right, transparent, mistyrose),
-    url("/Assets/2ndcoffeeshop.jpeg");
-    background-size: cover;  
-    background-repeat: no-repeat;  
+    background:url("/Assets/2ndcoffeeshop.jpeg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    color: #fff;  
 }
 
 .display-4 {
@@ -130,3 +131,7 @@ h2 {
     from {opacity: 0;}
     to {opacity:1 ;}
 }
+
+
+/**CSS for login Page*/
+
