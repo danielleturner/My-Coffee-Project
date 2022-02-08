@@ -1,4 +1,39 @@
+// Event listiner to add to checkout cart
 
+$('#LIC, #MIC, #SIC').click(function (){
+    // alert('clicked')
+    
+    let sizeClicked = $(this).val()
+    
+    
+        let coffee = [
+            {   size: "LGIC",
+                coffeesize: "Large",
+                price: "$3.59",
+            },
+            {
+                size: "MDIC",
+                coffeesize: "Medium",
+                price: "$4.59",
+            },
+            {
+                size: "SMIC",
+                coffeesize: "Small",
+                price: "$4.59",
+    
+            }
+        ];
+    
+        if (sizeClicked == coffee[0].size){
+            
+            alert('yaay') 
+        } else {
+            alert('no')
+        }
+    
+        
+        
+    })
 
 
 
