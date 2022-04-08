@@ -29,11 +29,25 @@ $('#LIC, #MIC, #SIC').click(function (){
             alert('yaay') 
         } else {
             alert('no')
-        }
-    
-        
-        
+        } 
     })
+
+    // $(document).ready(function(){
+    //     $("#LIC").click(function(){
+    //         console.log("clicked")
+    //       $("").append("<h2>Hello</h2>. ");
+    //     });
+    //   });
+
+    //   function largeIceCof() {
+    //     location.replace("http://127.0.0.1:5500/coffeecheckout.html")
+    //   }
+
+      function largeIceCof() {
+        document.getElementById("classicCoffee").insertAdjacentHTML("afterend",
+            "<h3>This is the text which has been inserted by JS</h3>");
+    }
+
 
 
 
