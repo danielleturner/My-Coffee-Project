@@ -1,52 +1,69 @@
 // Event listiner to add to checkout cart
 
-$('#LIC, #MIC, #SIC').click(function (){
-    // alert('clicked')
+// $('#LIC, #MIC, #SIC').click(function (){
+//     // alert('clicked')
     
-    let sizeClicked = $(this).val()
+//     let sizeClicked = $(this).val()
     
     
-        let coffee = [
-            {   size: "LGIC",
-                coffeesize: "Large",
-                price: "$3.59",
-            },
-            {
-                size: "MDIC",
-                coffeesize: "Medium",
-                price: "$4.59",
-            },
-            {
-                size: "SMIC",
-                coffeesize: "Small",
-                price: "$4.59",
+//         let coffee = [
+//             {   size: "LGIC",
+//                 coffeesize: "Large",
+//                 price: "$3.59",
+//             },
+//             {
+//                 size: "MDIC",
+//                 coffeesize: "Medium",
+//                 price: "$4.59",
+//             },
+//             {
+//                 size: "SMIC",
+//                 coffeesize: "Small",
+//                 price: "$4.59",
     
-            }
-        ];
+//             }
+//         ];
     
-        if (sizeClicked == coffee[0].size){
+//         // if (sizeClicked == coffee[0].size){
             
-            alert('yaay') 
-        } else {
-            alert('no')
-        } 
-    })
+//         //     alert('yaay') 
+//         // } else {
+//         //     alert('no')
+//         // } 
+//         ('#cart').append("");
+//     })
 
-    // $(document).ready(function(){
-    //     $("#LIC").click(function(){
-    //         console.log("clicked")
-    //       $("").append("<h2>Hello</h2>. ");
-    //     });
-    //   });
+    
+
+    // var addItemId = 0;
+    // function addToCart(card1){
+    //     addItemId += 1;
+    //     var selectedItem = document.createElement('div');
+    //     selectedItem.classList.add('cartImg');
+    //     selectedItem.setAttribute('id', addItemId);
+    //     var img = document.createElement('img');
+    //     img.setAttribute('src', item.children[0].currentSrc)
+    //     var cartItems = document.getElementById('item1');
+    //     selectedItem.append(img);
+    //     cartItems.append(selectedItem);
+    // }
+
+    // $
+    // // $(document).ready(function(){
+    // //     $("#LIC").click(function(){
+    // //         console.log("clicked")
+    // //       $("").append("<h2>Hello</h2>. ");
+    // //     });
+    // //   });
+
+    // //   function largeIceCof() {
+    // //     location.replace("http://127.0.0.1:5500/coffeecheckout.html")
+    // //   }
 
     //   function largeIceCof() {
-    //     location.replace("http://127.0.0.1:5500/coffeecheckout.html")
-    //   }
-
-      function largeIceCof() {
-        document.getElementById("classicCoffee").insertAdjacentHTML("afterend",
-            "<h3>This is the text which has been inserted by JS</h3>");
-    }
+    //     document.getElementById("classicCoffee").insertAdjacentHTML("afterend",
+    //         "<h3>This is the text which has been inserted by JS</h3>");
+    // }
 
 
 
@@ -129,15 +146,30 @@ $.ajax("https://dog.ceo/api/breeds/image/random").done(function (data, status){
     console.log("something went woof!?")
 })
 
-// $.ajax({
-//     url: 'https://randomuser.me/api/',
-//     dataType: 'json',
-//     success: function(data) {
-//       console.log(data);
-//     }
-//   });
-// 'https://randomuser.me/api/?results=5000'
+/**To append chosen animals to different page */
+function myFunction() {
+    document.getElementById("demo").innerHTML="<img src='/Assets/IceCoffee.jpeg' />";
+    document.getElementById("sizeSelection").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
 
-// document.getElementById("ICF3").addEventListener("click", function(){
-//     document.getElementById("goodstuff").innerHTML = "1/2 cup milk";
-// });
+    
+        // document.getElementById('price').innerHTML="$3.29";
+  }
+
+  function myFunctionSecond() {
+    document.getElementById("second").innerHTML="<img src='/Assets/caramel-latte.jpeg' />";
+    document.getElementById("sizeSelectionOne").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }

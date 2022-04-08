@@ -94,6 +94,16 @@ h2 {
     
 }
 
+
+/*Checkout Cart*/
+#checkoutCart{
+    
+}
+
+
+
+
+
 /*bottom 4 cards styling*/
 
 #card2{
@@ -241,5 +251,39 @@ span.psw {
 }
 
 /*@ media */
+
+
+
+
+
+/*Checkout Cart */
+
+#checkoutCart{
+    border: 5px solid peachpuff;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    
+}
+
+#checkoutCart img{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+#cartbox{
+    align-content: center;
+}
 
 
