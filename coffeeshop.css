@@ -75,7 +75,6 @@ h2 {
 
 #cntbg{
     background-color: gainsboro;
-
     padding: 0;
 }
 
@@ -93,16 +92,6 @@ h2 {
     border-radius: 45px 45px 0 0;
     
 }
-
-
-/*Checkout Cart*/
-#checkoutCart{
-    
-}
-
-
-
-
 
 /*bottom 4 cards styling*/
 
@@ -262,8 +251,8 @@ span.psw {
     border: 5px solid peachpuff;
     display: flex;
     flex-direction: column;
-    width: 100vh;
-    height: 250px;
+    width: auto;
+    height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -285,5 +274,6 @@ span.psw {
 #cartbox{
     align-content: center;
 }
+
 
 

@@ -67,9 +67,6 @@
                                 <div class="col">
                                     <button onclick="myFunction()"style="margin-top: 10px;">add to cart</button>
                                 </div>
-                                <!-- <div class="col" style="padding-top: 5px;">
-                                    <button id="LIC" class="button1" value="LGIC">L</button> <button id="MIC" value="MDIC">M</button> <button id="SIC" value="SMIC">S</button>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -84,7 +81,7 @@
                                         2 shots of expresso</span>
                                 </div>
                                 <div class="col">
-                                    <button onclick="myFunctionSecond()" style="margin-top: 10px;" id="LIC">add to cart</button>
+                                    <button onclick="myFunctionSecond()"style="margin-top: 10px;" id="LIC">add to cart</button>
                                 </div>
                                 <!-- <div class="col" style="padding-top: 5px;">
                                     <button id="LIC" class="button" value="LGIC">L</button> <button id="MIC" value="MDIC">M</button> <button id="SIC" value="SMIC">S</button>
@@ -103,7 +100,7 @@
                                         2 shots of expresso</span>
                                 </div> 
                                 <div class="col">
-                                    <button onclick="addToCart(item3)" style="margin-top: 10px;">add to cart</button>
+                                    <button onclick="myFunctionThird()" style="margin-top: 10px;">add to cart</button>
                                 </div>
                                 <!-- <div class="col" style="padding-top: 5px;">
                                     <button id="LIC" class="button1" value="LGIC">L</button> <button id="MIC" value="MDIC">M</button> <button id="SIC" value="SMIC">S</button>
@@ -122,7 +119,7 @@
                                         2 shots of expresso</span>
                                 </div>
                                 <div class="col">
-                                    <button style="margin-top: 10px;">add to cart</button>
+                                    <button onclick="myFunctionFourth()" style="margin-top: 10px;">add to cart</button>
                                 </div>
                                 <!-- <div class="col" style="padding-top: 5px;">
                                     <button id="LIC" class="button1" value="LGIC">L</button> <button id="MIC" value="MDIC">M</button> <button id="SIC" value="SMIC">S</button>
@@ -153,7 +150,7 @@
                                         2 shots of expresso</span>
                                 </div>
                                 <div class="col">
-                                    <button onclick="addToCart" style="margin-top: 10px;">add to cart</button>
+                                    <button onclick="myFunctionFifth()" style="margin-top: 10px;">add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +167,7 @@
                                             2 shots of expresso</span>
                                     </div>
                                     <div class="col">
-                                        <button style="margin-top: 10px;">add to cart</button>
+                                        <button onclick="myFunctionSixth()" style="margin-top: 10px;">add to cart</button>
                                     </div>
                                 </div>
                         </div>
@@ -187,7 +184,7 @@
                                             2 shots of expresso</span>
                                     </div>
                                     <div class="col">
-                                        <button style="margin-top: 10px;">add to cart</button>
+                                        <button onclick="myFunctionSeventh()" style="margin-top: 10px;">add to cart</button>
                                     </div>
                                 </div>
                         </div>
@@ -203,7 +200,7 @@
                                         2 shots of expresso</span>
                                 </div>
                                 <div class="col">
-                                    <button style="margin-top: 10px;">add to cart</button>
+                                    <button onclick="myFunctionEigth()" style="margin-top: 10px;">add to cart</button>
                                 </div>
                             </div>
                         </div>
@@ -220,34 +217,41 @@
         <div class="row">
             <div id="cartbox">
                 <div class="container" id="checkoutCart">
-                <div class="title">CART<hr></div>
+                <div class="title" style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">CHECKOUT CART<hr></div>
                 <div class="row">
                     <div class="col">
-                        <p id="demo"></p>
-                        <p id="sizeSelection"></p>
+                        <p id="first"></p>
+                        <p id="sizeSelection" style="padding-right: 32px;"></p>
                         <p id="price"></pid>
                     </div>
                     <div class="col">
                         <p id="second"></p>
-                        <p id="sizeSelectionOne"></p>               
+                        <p id="sizeSelectionOne" style="padding-right: 32px;"></p>               
                     </div>
                     <div class="col">
-                        <p>ccc</p>
+                        <p id="third"></p>
+                        <p id="sizeSelectionTwo" style="padding-right: 32px;"></p>
                     </div>
                     <div class="col">
-                        <p>ddd</p>
+                        <p id="fourth"></p>
+                        <p id="sizeSelectionThree" style="padding-right: 32px;"></p>
+                    </div>
+                    <!-- Bottom Row of Coffee-->
+                    <div class="col">
+                        <p id="fifth"></p>
+                        <p id="sizeSelectionFour" style="padding-right: 32px;"></p>
                     </div>
                     <div class="col">
-                        <p>eee</p>
+                        <p id="sixth"></p>
+                        <p id="sizeSelectionFive" style="padding-right: 32px;"></p>
                     </div>
-                    <div class="col">
-                        <p>fff</p>
+                    <div class="col" style="text-align: center;" id="seven">
+                        <p id="seventh"></p>
+                        <p id="sizeSelectionSix" style="padding-right: 32px;"></p>
                     </div>
-                    <div class="col">
-                        <p>ggg</p>
-                    </div>
-                    <div class="col">
-                        <p>hhh</p>
+                    <div class="col" style="padding-right: 32px;">
+                        <p id="eigth"></p>
+                        <p id="sizeSelectionSeven" style="padding-right: 32px;"></p>
                     </div>  
                 </div>
             </div>

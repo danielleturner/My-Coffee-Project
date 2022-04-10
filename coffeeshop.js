@@ -1,84 +1,3 @@
-// Event listiner to add to checkout cart
-
-// $('#LIC, #MIC, #SIC').click(function (){
-//     // alert('clicked')
-    
-//     let sizeClicked = $(this).val()
-    
-    
-//         let coffee = [
-//             {   size: "LGIC",
-//                 coffeesize: "Large",
-//                 price: "$3.59",
-//             },
-//             {
-//                 size: "MDIC",
-//                 coffeesize: "Medium",
-//                 price: "$4.59",
-//             },
-//             {
-//                 size: "SMIC",
-//                 coffeesize: "Small",
-//                 price: "$4.59",
-    
-//             }
-//         ];
-    
-//         // if (sizeClicked == coffee[0].size){
-            
-//         //     alert('yaay') 
-//         // } else {
-//         //     alert('no')
-//         // } 
-//         ('#cart').append("");
-//     })
-
-    
-
-    // var addItemId = 0;
-    // function addToCart(card1){
-    //     addItemId += 1;
-    //     var selectedItem = document.createElement('div');
-    //     selectedItem.classList.add('cartImg');
-    //     selectedItem.setAttribute('id', addItemId);
-    //     var img = document.createElement('img');
-    //     img.setAttribute('src', item.children[0].currentSrc)
-    //     var cartItems = document.getElementById('item1');
-    //     selectedItem.append(img);
-    //     cartItems.append(selectedItem);
-    // }
-
-    // $
-    // // $(document).ready(function(){
-    // //     $("#LIC").click(function(){
-    // //         console.log("clicked")
-    // //       $("").append("<h2>Hello</h2>. ");
-    // //     });
-    // //   });
-
-    // //   function largeIceCof() {
-    // //     location.replace("http://127.0.0.1:5500/coffeecheckout.html")
-    // //   }
-
-    //   function largeIceCof() {
-    //     document.getElementById("classicCoffee").insertAdjacentHTML("afterend",
-    //         "<h3>This is the text which has been inserted by JS</h3>");
-    // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 //menu pop up function ice coffee cnt1
 function menu () {
@@ -148,7 +67,7 @@ $.ajax("https://dog.ceo/api/breeds/image/random").done(function (data, status){
 
 /**To append chosen animals to different page */
 function myFunction() {
-    document.getElementById("demo").innerHTML="<img src='/Assets/IceCoffee.jpeg' />";
+    document.getElementById("first").innerHTML="<img src='/Assets/IceCoffee.jpeg' />";
     document.getElementById("sizeSelection").innerHTML=`<div>
     <label></label>
         <select>
@@ -163,8 +82,81 @@ function myFunction() {
   }
 
   function myFunctionSecond() {
-    document.getElementById("second").innerHTML="<img src='/Assets/caramel-latte.jpeg' />";
+    document.getElementById("second").innerHTML="<img src='/Assets/mocha-latte.jpeg' />";
     document.getElementById("sizeSelectionOne").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }
+
+  function myFunctionThird() {
+    document.getElementById("third").innerHTML="<img src='/Assets/caramel-latte.jpeg' />";
+    document.getElementById("sizeSelectionTwo").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }
+
+  function myFunctionFourth() {
+    document.getElementById("fourth").innerHTML="<img src='/Assets/peppermint-latte.jpeg' />";
+    document.getElementById("sizeSelectionThree").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }
+
+  function myFunctionFifth() {
+    document.getElementById("fifth").innerHTML="<img src='/Assets/hot-coffee.jpeg' />";
+    document.getElementById("sizeSelectionFour").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }
+
+  function myFunctionSixth(){
+    document.getElementById("sixth").innerHTML="<img src='/Assets/hot-mocha-latte.jpeg' />";
+    document.getElementById("sizeSelectionFive").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }
+
+
+  function myFunctionSeventh(){
+    document.getElementById("seventh").innerHTML="<img src='/Assets/hot-caramel-latte.jpeg' />";
+    document.getElementById("sizeSelectionSix").innerHTML=`<div>
+    <label></label>
+        <select>
+            <option id="1">Small</option>
+            <option id="2">Medium</option>
+            <option id="3">Large</option>
+        </select>
+    </div>`
+  }
+
+  function myFunctionEigth(){
+    document.getElementById("eigth").innerHTML="<img src='/Assets/v-day-latte.jpeg' />";
+    document.getElementById("sizeSelectionSeven").innerHTML=`<div>
     <label></label>
         <select>
             <option id="1">Small</option>
