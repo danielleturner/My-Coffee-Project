@@ -70,98 +70,287 @@ function myFunction() {
     document.getElementById("first").innerHTML="<img src='/Assets/IceCoffee.jpeg' />";
     document.getElementById("sizeSelection").innerHTML=`<div>
     <label></label>
-        <select>
+        <select id"cost">
             <option id="1">Small</option>
             <option id="2">Medium</option>
             <option id="3">Large</option>
         </select>
+        <button id="btn">Total Price</button>
+        <button onclick="returnSize()" id="reset">see size</button> 
     </div>`
 
+    document.getElementById("btn").addEventListener("click", totalPrice);
+
+    function totalPrice() {
+        document.getElementById("1").innerText=" $2.29 | Small";
+        document.getElementById("2").innerText=" $3.29 | Medium";
+        document.getElementById("3").innerText=" $4.29 | Large";
+      }
     
-        // document.getElementById('price').innerHTML="$3.29";
+      
+      document.getElementById("reset").addEventListener("click", returnSize);
+      
+      function returnSize(){
+    
+        document.getElementById("1").innerHTML="Small";
+        document.getElementById("2").innerHTML="Medium";
+        document.getElementById("3").innerHTML="Large";
+      }
   }
 
+  
+/**Functioin for Second Coffee */
   function myFunctionSecond() {
     document.getElementById("second").innerHTML="<img src='/Assets/mocha-latte.jpeg' />";
     document.getElementById("sizeSelectionOne").innerHTML=`<div>
     <label></label>
         <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+            <option id="21">Small</option>
+            <option id="22">Medium</option>
+            <option id="23">Large</option>
         </select>
+        <button id="btn2">Total Price</button>
+        <button onclick="returnSize()" id="reset">see size</button>
     </div>`
+
+    document.getElementById("btn2").addEventListener("click", totalPrice);
+
+    function totalPrice() {
+        document.getElementById("21").innerText=" $2.29 | Small";
+        document.getElementById("22").innerText=" $3.29 | Medium";
+        document.getElementById("23").innerText=" $4.29 | Large";
+      }
+    
+      
+      document.getElementById("reset").addEventListener("click", returnSize);
+      
+      function returnSize(){
+    
+        document.getElementById("21").innerHTML="Small";
+        document.getElementById("22").innerHTML="Medium";
+        document.getElementById("23").innerHTML="Large";
+      }
   }
 
+  /**Function for third Coffee */
   function myFunctionThird() {
     document.getElementById("third").innerHTML="<img src='/Assets/caramel-latte.jpeg' />";
     document.getElementById("sizeSelectionTwo").innerHTML=`<div>
     <label></label>
         <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+            <option id="31">Small</option>
+            <option id="32">Medium</option>
+            <option id="33">Large</option>
         </select>
+        <button id="btn3">Total Price</button>
+        <button onclick="returnSize()" id="reset">see size</button>
     </div>`
+
+    document.getElementById("btn3").addEventListener("click", totalPrice);
+
+    function totalPrice() {
+        document.getElementById("31").innerText=" $2.29 | Small";
+        document.getElementById("32").innerText=" $3.29 | Medium";
+        document.getElementById("33").innerText=" $4.29 | Large";
+      }
+    
+      
+      document.getElementById("reset").addEventListener("click", returnSize);
+      
+      function returnSize(){
+    
+        document.getElementById("31").innerHTML="Small";
+        document.getElementById("32").innerHTML="Medium";
+        document.getElementById("33").innerHTML="Large";
+      }
   }
+
+  /**Functioin for fourth Coffee */
 
   function myFunctionFourth() {
     document.getElementById("fourth").innerHTML="<img src='/Assets/peppermint-latte.jpeg' />";
     document.getElementById("sizeSelectionThree").innerHTML=`<div>
     <label></label>
         <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+            <option id="41">Small</option>
+            <option id="42">Medium</option>
+            <option id="43">Large</option>
         </select>
+        <button id="btn4">Total Price</button>
+        <button onclick="returnSize()" id="reset">see size</button>
     </div>`
+
+    document.getElementById("btn4").addEventListener("click", totalPrice);
+
+    function totalPrice() {
+        document.getElementById("41").innerText=" $2.29 | Small";
+        document.getElementById("42").innerText=" $3.29 | Medium";
+        document.getElementById("43").innerText=" $4.29 | Large";
+      }
+    
+      
+      document.getElementById("reset").addEventListener("click", returnSize);
+      
+      function returnSize(){
+    
+        document.getElementById("41").innerHTML="Small";
+        document.getElementById("42").innerHTML="Medium";
+        document.getElementById("43").innerHTML="Large";
+      }
   }
+
+  /*Function for fifth Coffee*/
 
   function myFunctionFifth() {
     document.getElementById("fifth").innerHTML="<img src='/Assets/hot-coffee.jpeg' />";
     document.getElementById("sizeSelectionFour").innerHTML=`<div>
     <label></label>
         <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+            <option id="51">Small</option>
+            <option id="52">Medium</option>
+            <option id="53">Large</option>
         </select>
+        <button id="btn5">Total Price</button>
+        <button onclick="returnSize()" id="reset">see size</button>
     </div>`
+
+    document.getElementById("btn5").addEventListener("click", totalPrice);
+
+    function totalPrice() {
+        document.getElementById("51").innerText=" $2.29 | Small";
+        document.getElementById("52").innerText=" $3.29 | Medium";
+        document.getElementById("53").innerText=" $4.29 | Large";
+      }
+    
+      
+      document.getElementById("reset").addEventListener("click", returnSize);
+      
+      function returnSize(){
+    
+        document.getElementById("51").innerHTML="Small";
+        document.getElementById("52").innerHTML="Medium";
+        document.getElementById("53").innerHTML="Large";
+      }
   }
+
+  /**myFunctionSixth = all javascript for 6th coffee */
 
   function myFunctionSixth(){
     document.getElementById("sixth").innerHTML="<img src='/Assets/hot-mocha-latte.jpeg' />";
     document.getElementById("sizeSelectionFive").innerHTML=`<div>
     <label></label>
         <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+            <option id="61">Small</option>
+            <option id="62">Medium</option>
+            <option id="63">Large</option>
         </select>
+        <button id="btn6">Total Price</button>
+        <p></p>
+        <button onclick="returnSize()" id="reset">see size</button>
     </div>`
+
+    document.getElementById("btn6").addEventListener("click", totalPrice);
+
+
+    function totalPrice() {
+      document.getElementById("61").innerText=" $2.29 | Small";
+      document.getElementById("62").innerText=" $3.29 | Medium";
+      document.getElementById("63").innerText=" $4.29 | Large";
+    }
+  
+    
+    document.getElementById("reset").addEventListener("click", returnSize);
+    
+    function returnSize(){
+  
+      document.getElementById("61").innerHTML="Small";
+      document.getElementById("62").innerHTML="Medium";
+      document.getElementById("63").innerHTML="Large";
+    }
   }
 
+
+
+  /**myFunctionSeventh = all javascript for 7th coffee */
 
   function myFunctionSeventh(){
     document.getElementById("seventh").innerHTML="<img src='/Assets/hot-caramel-latte.jpeg' />";
     document.getElementById("sizeSelectionSix").innerHTML=`<div>
     <label></label>
-        <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+        <select id="cost6" class="cost-block">
+            <option id="71">Small</option>
+            <option id="72">Medium</option>
+            <option id="73">Large</option>
         </select>
+        <button id="btn7">Total Price</button>
+        <button onclick="returnSize()" id="reset">see size</button>
     </div>`
+
+    document.getElementById("btn7").addEventListener("click", totalPrice);
+
+
+  function totalPrice() {
+    document.getElementById("71").innerText=" $2.29 | Small";
+    document.getElementById("72").innerText=" $3.29 | Medium";
+    document.getElementById("73").innerText=" $4.29 | Large";
   }
+
+  
+  document.getElementById("reset").addEventListener("click", returnSize);
+  
+  function returnSize(){
+
+    document.getElementById("71").innerHTML="Small";
+    document.getElementById("72").innerHTML="Medium";
+    document.getElementById("73").innerHTML="Large";
+  }
+    
+  }
+
+
+
+  /**myFunctionEight = all javascript for 8th coffee */
 
   function myFunctionEigth(){
     document.getElementById("eigth").innerHTML="<img src='/Assets/v-day-latte.jpeg' />";
     document.getElementById("sizeSelectionSeven").innerHTML=`<div>
     <label></label>
-        <select>
-            <option id="1">Small</option>
-            <option id="2">Medium</option>
-            <option id="3">Large</option>
+        <select id="cost7" class="cost-block">
+            <option id="81">Small</option>
+            <option id="82">Medium</option>
+            <option id="83">Large</option>
         </select>
+        <button id="btnz">Total Price</button>
+        <p></p>
+        <button onclick="returnSize()" id="reset">see size</button> 
+        <button onclick="removeItem()" id="clearItem8">X</button>
     </div>`
+
+    document.getElementById("btnz").addEventListener("click", totalPrice);
+
+  function totalPrice() {
+    document.getElementById("81").innerText=" $2.29 | Small";
+    document.getElementById("82").innerText=" $3.29 | Medium";
+    document.getElementById("83").innerText=" $4.29 | Large";
   }
+
+  
+  document.getElementById("reset").addEventListener("click", returnSize);
+  
+  function returnSize(){
+
+    document.getElementById("81").innerHTML="Small";
+    document.getElementById("82").innerHTML="Medium";
+    document.getElementById("83").innerHTML="Large";
+  }
+
+  function removeItem(){
+    document.getElementById('clearItem8').remove();
+    document.getElementById('sizeSelectionSeven').removeAttribute();
+  }
+
+  }
+
+  /**Function to clear cart */
+
+  
